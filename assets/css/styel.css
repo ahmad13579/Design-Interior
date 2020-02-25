@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Karla|Work+Sans&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+}
+header{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+#roll{
+    width: 45%;
+    padding: 355px 0 0 200px;
+}
+header h1{
+    padding: 0 0 0 30px;
+    width: 30%;
+    font-size: 80px;
+    letter-spacing: 70px;
+    font-family: 'Work Sans', ;
+    font-weight: 90px;
+}
+header p{
+    font-size: 20px;
+    font-family: 'Karla', ;
+    letter-spacing: 5px;
+
+}
+header img{
+    height: 100vh;
+    width: 100%;
+}
+#one{
+  height: 100%;
+    width: 100%;
+    background-color: #2e2e2e ;
+    display: flex;
+    position: sticky;
+    bottom: 0;
+    top: 0;
+}
+#one ul{
+    /* margin-left: 100vh; */
+    display: flex;
+}
+#one ul li{
+    padding: 15px 40px 0 40px;
+    list-style: none;
+    color:#fff ;
+}
+#one img{
+   width:70px;
+   height: 50px;
+   padding: 20px 30px 20px 30px;
+}
+main h1{
+    margin: 0;
+    padding: 0 0 0 30px;
+    text-align: center;
+    font-size:50px;
+    letter-spacing: 20px;
+    font-family: 'Work Sans' ;
+    font-weight: 90px;
+    
+
+}
+main{
+    display: flex;
+        background-color: #2e2e2e ; 
+        margin: 0;
+        color: #ffffff;
+     font-family: 'Work Sans' ;
+height: 600px;
+    
+
+}
+main div p{
+   line-height: 40px;
+   padding-left: 50px;
+   font-size: 20px;
+
+}
+
+.bilder img{
+    width: 515px;
+    margin: 3%;
+}
+.vedio{
+    display: flex;
+    justify-content: center;
+}
+ h1{
+   justify-content: center;
+}
+#tow h1{
+    font-family: 'Work Sans' ;
+    font-size: 40px;
+    padding-top: 100px;
+    text-align: center;
+}
+#tow p{
+    font-family: 'Work Sans' ;
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+#tow{
+    margin-bottom: 100px;
+}
+#three{
+    height: 90vh;
+    display: flex;
+    background-color: #2e2e2e ;
+    color: white;
+    margin-top: 100px;
+}
+#three h1{
+font-size: 50px;
+font-family: 'Work Sans' ;
+padding: 200px 0 0 60px;
+font-weight: 90px;
+}
+#three p{
+padding:  0 0 50px 60px;
+font-family: 'Work Sans' ;
+font-weight: 90;
+letter-spacing: 6px;
+line-height: 20px;
+
+}
+
+.three{
+     display: flex;
+     justify-content: space-between;
+}
+.contact{
+ margin-left: 200px; 
+ margin-top: 250px; 
+}
+#three label{
+    
+} input{
+    width: 300px;
+    height: 20px;
+} button{
+    width: 80px;
+    height: 30px;  
+}
+footer{
+    background-color: #1d2c2f ;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-family: 'Work Sans' ;
+}
+footer ul{
+    display: flex;
+    list-style: none;
+}
+footer ul li{
+    padding-right: 10px;
+}
